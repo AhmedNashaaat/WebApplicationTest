@@ -7,6 +7,9 @@
 		<classes>
 			<class name="tests.SearchProductTest" />
 			<class name="tests.AddProductToShoppingCartTest" />
+			<class name="tests.UserRegistrationTestWithJavaFaker" />
+			<class name="tests.AddProductToShoppingCartTest" />
+			<class name= "ProductHoverMenuTest" />
 		</classes>
 	</test>
 </suite> 
