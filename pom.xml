@@ -125,6 +125,7 @@
 			</activation>
 			<properties>
 				<testNGSuite>testng.xml</testNGSuite>
+				<testNGSuite>regrassionSuite.xml</testNGSuite>
 
 			</properties>
 		</profile>

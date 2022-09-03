@@ -27,11 +27,13 @@ public class HomePage  extends PageBase {
 	@FindBy(id="customerCurrency")
 	WebElement currencydrl; 
 
-	@FindBy(linkText="Computers")
+	@FindBy(partialLinkText= "Computers  ")
 	WebElement ComputerMenu; 
 
-	@FindBy(linkText="Notebooks")
+	@FindBy(partialLinkText =  "Notebooks  ")
 	WebElement NotbooksMenu; 
+	
+	
 
 
 	public void openRegistrationPage() 
@@ -63,7 +65,6 @@ public class HomePage  extends PageBase {
 		.moveToElement(ComputerMenu)
 		.moveToElement(NotbooksMenu)
 		.click()
-		.build()
-		.perform();
+		.build().perform();
 	}
 }
